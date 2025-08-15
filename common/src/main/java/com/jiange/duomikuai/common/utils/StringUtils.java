@@ -19,6 +19,11 @@ public class StringUtils {
         return !isEmpty(str);
     }
 
+    /**
+     *
+     * @param strs
+     * @return
+     */
     public static boolean isALlNotEmpty(String... strs) {
         for (String str : strs) {
             if (isEmpty(str)) {
