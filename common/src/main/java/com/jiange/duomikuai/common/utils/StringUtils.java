@@ -10,6 +10,11 @@ public class StringUtils {
         return str == null || str.isEmpty();
     }
 
+    /**
+     * 判断字符串是否不为null且非空
+     * @param str 字符串
+     * @return true:不为null且非空，false:为null或空
+     */
     public static boolean isNotEmpty(String str) {
         return !isEmpty(str);
     }
