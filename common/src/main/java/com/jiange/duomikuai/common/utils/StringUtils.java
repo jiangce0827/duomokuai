@@ -20,7 +20,7 @@ public class StringUtils {
     }
 
     /**
-     * jjj
+     * jj
      * @param strs
      * @return
      */
